@@ -1,0 +1,38 @@
+{
+  "name": "danain-monorepo",
+  "version": "2.0.0",
+  "description": "DANAIN - Digital Wallet Clone Application",
+  "private": true,
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:admin": "cd admin && npm start",
+    "dev:client": "cd client && npm start",
+    "build:server": "cd server && npm start",
+    "build:admin": "cd admin && npm run build",
+    "test:all": "npm run test:server && npm run test:client && npm run test:admin",
+    "test:server": "cd server && npm test",
+    "test:client": "cd client && npm test",
+    "test:admin": "cd admin && npm test",
+    "lint:all": "npm run lint:server && npm run lint:client && npm run lint:admin",
+    "lint:server": "cd server && npm run lint",
+    "lint:client": "cd client && npm run lint",
+    "lint:admin": "cd admin && npm run lint",
+    "health": "curl -f http://localhost:3000/health || echo 'Server not running'"
+  },
+  "keywords": [
+    "fintech",
+    "digital-wallet",
+    "react-native",
+    "nodejs",
+    "express",
+    "react",
+    "mobile-app",
+    "payment-system"
+  ],
+  "author": "DANAIN Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/egasembiring/Clone-DANA-App.git"
+  }
+}

@@ -1,16 +1,45 @@
 {
-  "name": "dana-server",
-  "version": "1.0.0",
-  "description": "clone dana server",
-  "main": "app.js",
+  "name": "danain-server",
+  "version": "2.0.0",
+  "description": "DANAIN Server - Backend API for digital wallet application",
+  "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint src/**/*.js --fix"
   },
   "keywords": [
-    "clone",
-    "dana",
-    "express"
+    "fintech",
+    "digital-wallet",
+    "nodejs",
+    "express",
+    "api",
+    "danain"
   ],
-  "author": "arkais teams",
-  "license": "MIT"
+  "author": "DANAIN Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "dotenv": "^16.3.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "express-rate-limit": "^7.1.5",
+    "express-validator": "^7.0.1",
+    "mongoose": "^7.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3",
+    "eslint": "^8.52.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
 }
