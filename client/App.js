@@ -6,7 +6,6 @@ import {
   View,
   Text,
   StatusBar,
-  Image,
 } from 'react-native';
 
 const App = () => {
@@ -21,7 +20,7 @@ const App = () => {
             <Text style={styles.headerTitle}>DANAIN</Text>
             <Text style={styles.subtitle}>Digital Wallet Clone</Text>
           </View>
-          
+
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Welcome to DANAIN</Text>
@@ -30,18 +29,16 @@ const App = () => {
                 digital financial services for seamless transactions.
               </Text>
             </View>
-            
+
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Features</Text>
               <Text style={styles.sectionDescription}>
-                • Digital payments and transfers{'\n'}
-                • Bill payments and top-up services{'\n'}
-                • E-commerce integration{'\n'}
-                • QR code payments{'\n'}
-                • Account management
+                • Digital payments and transfers{'\n'}• Bill payments and top-up
+                services{'\n'}• E-commerce integration{'\n'}• QR code payments
+                {'\n'}• Account management
               </Text>
             </View>
-            
+
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Technology Stack</Text>
               <Text style={styles.sectionDescription}>

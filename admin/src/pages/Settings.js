@@ -1,7 +1,5 @@
 import React from 'react';
-import { Card, Form, Input, Button, Switch, Select, InputNumber, Divider, Space } from 'antd';
-
-const { Option } = Select;
+import { Card, Form, Input, Button, Switch, InputNumber, Space } from 'antd';
 
 const Settings = () => {
   const [form] = Form.useForm();

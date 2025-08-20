@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col, Card, Statistic, Table, Tag } from 'antd';
-import { UserOutlined, TransactionOutlined, DollarOutlined, TrophyOutlined } from '@ant-design/icons';
+import { UserOutlined, TransactionOutlined, TrophyOutlined } from '@ant-design/icons';
 
 const Dashboard = () => {
   // Mock data
